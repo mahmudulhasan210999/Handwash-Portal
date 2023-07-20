@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center">
         <div class="container">
-            <div class="flex justify-between items-center px-6 bg-yellow-500 py-4 mt-6">
+            <div class="flex justify-between items-center px-6 bg-yellow-500 mt-0 lg:mt-6 py-4">
                 <div class="">
                     <p class="text-white">{{ dateTime() }}</p>
                 </div>
@@ -15,16 +15,15 @@
                 <!-- Buttons -->
                 <div class="flex gap-4 py-4">
                     <router-link to="/">
-                        <button class="">All</button>
-                        <!-- <button class="bg-primary2 hover:bg-action-edit rounded-full w-9 h-9"><i class="pi pi-pencil" style="font-size: 1rem; color: white;"></i></button> -->
+                        <button class="hover:font-semibold">All</button>
                     </router-link>
 
                     <router-link to="/school-data">
-                        <button class="">School Data</button>
+                        <button class="hover:font-semibold">School Data</button>
                     </router-link>
 
                     <router-link to="/overview">
-                        <button class="">Overview</button>
+                        <button class="hover:font-semibold">Overview</button>
                     </router-link>
                 </div>
             </div>
