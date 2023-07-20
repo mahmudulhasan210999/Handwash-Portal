@@ -4,11 +4,62 @@
 const state = {
     // items: [],
 
-    items: [
+    total_student: {
+        male_count: 655,
+        female_count: 666,
+    },
+
+    daily_student: {
+        male_count: 644,
+        female_count: 653,
+    },
+
+    wash: {
+        male_percentage: 34,
+        female_percentage: 66,
+    },
+
+    table_data: [
         {
             id: 1,
-            name: "laskdj"
-        }
+            group: 23,
+            gender: "Male",
+            wash_condition: "Improved",
+            wash_habit: "Improved",
+            percentage: 23
+        },
+        {
+            id: 2,
+            group: 12,
+            gender: "Male",
+            wash_condition: "Satisfactory",
+            wash_habit: "Satisfactory",
+            percentage: 7
+        },
+        {
+            id: 3,
+            group: 42,
+            gender: "Female",
+            wash_condition: "Need Attention",
+            wash_habit: "Need Attention",
+            percentage: 22
+        },
+        {
+            id: 4,
+            group: 54,
+            gender: "Male",
+            wash_condition: "Satisfactory",
+            wash_habit: "Satisfactory",
+            percentage: 8
+        },
+        {
+            id: 5,
+            group: 33,
+            gender: "Male",
+            wash_condition: "Need Attention",
+            wash_habit: "Need Attention",
+            percentage: 23
+        },
     ]
 }
 

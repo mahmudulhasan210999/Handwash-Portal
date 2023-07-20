@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center">
         <div class="container">
-            <div class="flex justify-between items-center px-6 bg-gray-500 py-4 mx-6 mt-6">
+            <div class="flex justify-between items-center px-6 bg-yellow-500 py-4 mt-6">
                 <div class="">
                     <p class="text-white">{{ dateTime() }}</p>
                 </div>
