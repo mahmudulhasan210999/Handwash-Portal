@@ -10,11 +10,11 @@
                             <div class="flex w-full">
                                 <div class="w-1/2 p-5 bg-yellow-200">
                                     <p class="text-2xl font-semibold">345</p>
-                                    <p class="text-sm">Primary</p>
+                                    <p class="text-xs">Primary</p>
                                 </div>
                                 <div class="w-1/2 p-5 bg-yellow-300">
                                     <p class="text-2xl font-semibold">345</p>
-                                    <p class="text-sm">Primary</p>
+                                    <p class="text-xs">Primary</p>
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
 
             <div class="flex justify-center">
                 <!-- Buttons -->
-                <div class="flex gap-4 py-4">
+                <div class="flex gap-8 py-4">
                     <router-link to="/">
                         <button class="hover:font-semibold">All</button>
                     </router-link>
