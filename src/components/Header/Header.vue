@@ -7,13 +7,13 @@
                 </div>
 
                 <div class="bg-white w-8 h-7 flex justify-center items-center cursor-pointer">
-                    <!-- <p @click="getLogout"><i class="pi pi-sign-out self-center text-green-700" style="font-size: 0.9rem"></i></p> -->
+                    <p><i class="pi pi-sign-out self-center text-green-700" style="font-size: 0.9rem"></i></p>
                 </div>
             </div>
 
             <div class="flex justify-center">
                 <!-- Buttons -->
-                <div class="flex gap-8 py-4">
+                <div class="flex gap-8 py-10">
                     <router-link to="/">
                         <button class="hover:font-semibold">All</button>
                     </router-link>
